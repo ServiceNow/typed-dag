@@ -63,8 +63,8 @@ def typed_meek(cpdag: np.ndarray, types: list) -> Tuple[np.ndarray, np.ndarray]:
                     if type_g[types[a], types[b]] == 1 and \
                        type_g[types[b], types[a]] == 0 and \
                        p[a, b] == 1 and p[b, a] == 1:
-                        p[a, b] == 1
-                        p[b, a] == 0
+                        p[a, b] = 1
+                        p[b, a] = 0
 
         # Step 3: Apply Meek's rules (R1, R2, R3, R4) and the two-type fork rule (R5)
         for a in range(n_nodes):
