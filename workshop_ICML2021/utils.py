@@ -111,8 +111,8 @@ if __name__ == "__main__":
     load_and_plot(ticks=[10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
                   xlabel="Number of vertices",
                   image_name="nodes_new",
-                  fname_mec="MEC_size_by_nodes.npy",
-                  fname_tmec="tMEC_size_by_nodes.npy",
+                  fname_mec="MEC_size_by_vertices.npy",
+                  fname_tmec="tMEC_size_by_vertices.npy",
                   log_scale=True)
 
     # types
