@@ -11,3 +11,6 @@ This is the code for the experiments of "Typing assumptions improve identificati
 The jupyter notebooks allow to replicate the experiments and the figures (a notebook for typed PC will soon be added). The code to replicate Figure 3 and 7 is in the directory `theory` and the code for Figure 4 and 5 is in `typed_pc`.
 
 In the directory `workshop_ICML`, there is the code for "Typing assumptions improve identification in causal discovery" presented at The Neglected Assumptions in Causal Inference workshop at ICML 2021 and the sequel presented at the WHY-21 workshop at NeurIPS 2021.
+
+## Vulnerability Reporting
+Please notify psirt-oss@servicenow.com regarding any vulnerability reports in addition to following current reporting procedure.
